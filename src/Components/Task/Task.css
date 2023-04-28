@@ -1,0 +1,14 @@
+.taskLabel {
+  color: #eee
+}
+
+.taskLabel:first-letter {
+    text-transform: uppercase;
+}
+
+.concludeTask {
+  opacity: 0.5;
+  color: #8a8a8a;
+  text-decoration-line: line-through;text-decoration-thickness: 0.2rem;
+  text-decoration-color: #eee;
+}

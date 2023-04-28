@@ -1,0 +1,103 @@
+/* @media all and (min-width: 600px) {
+  .card {
+    width: 100%;
+    height: 80%;
+    background-color: #151425;
+    border-radius: 3%;
+    padding-top: 1%;
+   }
+} */
+
+.app {
+ width: 100vw;
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.card {
+ width: 28%;
+ height: 90%;
+ background-color: #151425;
+ border-radius: 8px;
+ padding-top: 1%;
+}
+.header {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  padding: 3%;
+}
+
+.tasksBox {
+  width: 100%;
+  height: 85%;
+  background-color: #222239;
+  position: relative;
+  border-radius: 0 0 8px 8px;
+}
+
+.addTask {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  position: absolute;
+  top: -5%;
+}
+
+.addTaskLabel {
+  background-color: #37375c;
+  padding: 3%;
+  border-radius: 4px;
+}
+
+.boxTasks {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 10% 4%;
+  gap: 12px;
+}
+
+.counterTasks {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.boxCounter {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.counter {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4a4646;
+  border-radius: 50%;
+  padding: 4px;
+}
+
+.tasks {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  overflow-y: auto;
+
+}
+
+.noTasks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0.5
+}
